@@ -51,7 +51,7 @@ if(links) {
         link.addEventListener('click', () => {
             let id = link.id;
             let newsId = id.match(/\d+/g).join('');
-            window.location.href = `${SERVER_ROOT}/news/${newsId}`;
+            window.location.href = `/news/${newsId}`;
         });
     }
 }
